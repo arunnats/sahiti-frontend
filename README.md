@@ -10,6 +10,8 @@ Dependencies to be installed:
 2. `npm`
 3. `Git`
 4. VS Code or any other code editor
+5. github cli : `gh`
+6. `strapi` : `npm install -g strapi`
 
 Steps to run this project on your local machine:
 

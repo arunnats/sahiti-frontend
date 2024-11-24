@@ -12,6 +12,7 @@ This design docuemnt cointains the following contents:
     - [Organizer](#organizer)
   - [Functional Requirements](#functional-requirements)
   - [Non-Functional Requirements](#non-functional-requirements)
+  - [Technology Stack](#technology-stack)
 
 ## Introduction
 
@@ -131,3 +132,19 @@ The website should be...
 1. fast and responsive with a loading time of less than 3 seconds.
 2. secure with HTTPS, CORS, and CSRF protection.
 3. SEO optimized.
+
+## Technology Stack
+
+The technology stack for the project is as follows:
+
+Frontend:
+
+1. `React`
+2. `React Router`
+3. `Tailwind CSS`
+4. `Axios`
+
+Backend:
+
+1. `Straapi`
+2. `Node.js`
