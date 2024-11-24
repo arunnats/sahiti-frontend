@@ -32,11 +32,8 @@ Steps to run this project on your local machine:
 4. Run the project.
    
 ``` bash
-    npm start
+    npm run dev
 ```
 
-## How to contribute to this project ?
-
-1. Fork this repository.
-2. Clone the forked repository.
-3. Change the directory to the project directory.
+5. Open the browser and go to `http://localhost:5173/`.
+6. Make changes to the project and see the changes in the browser.
