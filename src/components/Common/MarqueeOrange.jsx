@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const MarqueeOrange = () => {
     let marquee_imgs = [];
 
-    for (let i = 0; i < 14; i++) {
+    for (let i = 0; i < 7; i++) {
         marquee_imgs.push(<img key={i} src={`${'/illustrations/Vector'+i+'.svg'}`} className='w-16 h-16 mx-5' ></img>)
     }
   return (
