@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+main{
+    margin-top: 80px;
+    margin-bottom: 384px;
+}
+
+section{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+}

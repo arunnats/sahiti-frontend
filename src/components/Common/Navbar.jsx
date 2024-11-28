@@ -6,8 +6,8 @@ const Navbar = ({open, onClickHam}) => {
 
 
   return (
-    <div className='w-full h-20 bg-orange-400 shadow-md z-50 relative'>
-      <div className='container flex justify-between items-center h-full'>
+    <div className='w-full h-20 bg-orange-400 shadow-md z-50 absolute top-0'>
+      <div className='container flex justify-between items-center h-full relative'>
         <Link to='/' className='text-white text-2xl font-bold h-16 w-16 z-50 m-3'>
           <img src="/logos/sahiti-cream.svg" alt="" />
         </Link>
