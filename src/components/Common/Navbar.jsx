@@ -8,16 +8,16 @@ const Navbar = ({open, onClickHam}) => {
   return (
     <div className='w-full h-20 bg-orange-400 shadow-md z-50 relative'>
       <div className='container flex justify-between items-center h-full'>
-        <Link to='/' className='text-white text-2xl font-bold h-16 w-16 z-50'>
+        <Link to='/' className='text-white text-2xl font-bold h-16 w-16 z-50 m-3'>
           <img src="/logos/sahiti-cream.svg" alt="" />
         </Link>
         <div className='nav-desktop text-white text-lg font-semibold hidden lg:block'>
-          <Link to='/marketing' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all' >Marketing</Link>
-          <Link to='/contact' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all' >Contact</Link>
-          <Link to='/schedule' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all' >Schedule</Link>
-          <Link to='/toc' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all' >Terms</Link>
-          <Link to='/sponsors' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all' >Sponsors</Link>
-          <Link to='/workshops' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all' >Workshops</Link>
+          {/* <Link to='/marketing' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all uppercase text-xl ' >Marketing</Link> */}
+          {/* <Link to='/contact' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all uppercase text-xl ' >Contact</Link> */}
+          <Link to='/schedule' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all uppercase text-xl ' >Schedule</Link>
+          {/* <Link to='/toc' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all uppercase text-xl ' >Terms</Link> */}
+          <Link to='/sponsors' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all uppercase text-xl ' >Sponsors</Link>
+          <Link to='/workshops' className='w-max p-3 m-2 hover:bg-orange-300 rounded-lg transition-all uppercase text-xl ' >Workshops</Link>
         </div>
 
         <div className='nav-mobile lg:hidden z-50 absolute right-0 m-2'>
@@ -28,13 +28,17 @@ const Navbar = ({open, onClickHam}) => {
           </div>
         </div>
 
+        <div className=' lg:hidden z-50 absolute center m-auto left-0 right-0 text-center text-2xl text-white uppercase font-serif'>
+          Sahiti
+        </div>
+
         <div className={`nav-mobile-menu ${open ? 'block' : 'hidden'} `}>
           <div className={`w-full h-full bg-orange-400 fixed top-0 left-0 z-40 transform transition-all ${open ? 'translate-x-0' : '-translate-x-full'}`}>
             <div className='w-full h-full flex flex-col justify-center items-center'>
-              <Link onClick={onClickHam} to='/marketing' className='w-full flex items-center justify-center p-3 m-2 text-4xl uppercase hover:bg-orange-300 rounded-lg transition-all' >Marketing</Link>
-              <Link onClick={onClickHam} to='/contact' className='w-full flex items-center justify-center p-3 m-2 text-4xl uppercase hover:bg-orange-300 rounded-lg transition-all' >Contact</Link>
+              {/* <Link onClick={onClickHam} to='/marketing' className='w-full flex items-center justify-center p-3 m-2 text-4xl uppercase hover:bg-orange-300 rounded-lg transition-all' >Marketing</Link> */}
+              {/* <Link onClick={onClickHam} to='/contact' className='w-full flex items-center justify-center p-3 m-2 text-4xl uppercase hover:bg-orange-300 rounded-lg transition-all' >Contact</Link> */}
               <Link onClick={onClickHam} to='/schedule' className='w-full flex items-center justify-center p-3 m-2 text-4xl uppercase hover:bg-orange-300 rounded-lg transition-all' >Schedule</Link>
-              <Link onClick={onClickHam} to='/toc' className='w-full flex items-center justify-center p-3 m-2 text-4xl uppercase hover:bg-orange-300 rounded-lg transition-all' >Terms</Link>
+              {/* <Link onClick={onClickHam} to='/toc' className='w-full flex items-center justify-center p-3 m-2 text-4xl uppercase hover:bg-orange-300 rounded-lg transition-all' >Terms</Link> */}
               <Link onClick={onClickHam} to='/sponsors' className='w-full flex items-center justify-center p-3 m-2 text-4xl uppercase hover:bg-orange-300 rounded-lg transition-all' >Sponsors</Link>
               <Link onClick={onClickHam} to='/workshops' className='w-full flex items-center justify-center p-3 m-2 text-4xl uppercase hover:bg-orange-300 rounded-lg transition-all' >Workshops</Link>
             </div>
