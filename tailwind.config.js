@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        julius: ["Julius Sans One", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 }
