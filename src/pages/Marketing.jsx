@@ -2,9 +2,11 @@ import React from 'react'
 
 const Marketing = () => {
   return (
-    <div>
-      Marketing
-    </div>
+    <main>
+      <section>Marketing</section>
+
+      
+    </main>
   )
 }
 

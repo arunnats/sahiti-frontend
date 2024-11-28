@@ -2,9 +2,10 @@ import React from 'react'
 
 const Terms = () => {
   return (
-    <div>
-      Terms of Service
-    </div>
+    <main>
+      <section>Terms of Service</section>
+      
+    </main>
   )
 }
 

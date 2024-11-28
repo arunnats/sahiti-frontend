@@ -2,9 +2,11 @@ import React from 'react'
 
 const Sponsors = () => {
   return (
-    <div>
-      Sponsors
-    </div>
+    <main>
+      <section> Sponsors</section>
+
+     
+    </main>
   )
 }
 

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Workshops = () => {
   return (
-    <div>
-      Workshops and Contests
-    </div>
+    <main>
+      <section>Workshops and Contests</section>
+    </main>
   )
 }
 

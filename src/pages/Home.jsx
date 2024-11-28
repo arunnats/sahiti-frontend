@@ -6,7 +6,12 @@ const Home = () => {
 
   return (
     <main className='mt-20 mb-96'>
-      <section></section>
+      <section>
+        <div className="h-max">
+
+        </div>
+        <MarqueeOrange />
+      </section>
       <section></section>
       
     </main>
