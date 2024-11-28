@@ -82,7 +82,6 @@ As an organizer I want to...
 13. manage the various sponsorship options available.
 14. manage the registration for sponsorship.
 
-
 ## Functional Requirements
 
 The website should have a...
@@ -102,14 +101,11 @@ The admin should be able to...
 1. manage the list of activites, competitions, and workshops available in the festival.
 2. manage the schedule of the festival.
 3. manage the registration for the festival's events.
-4. manage the tickets for the festival.
-5. manage the location of the festival.
-6. manage the speakers and judges of the festival.
-7. manage the sponsors of the festival.
-8. manage the contact information of the organizers.
-9. manage the rules and regulations of the festival and its events.
-10. manage the terms and conditions of the festival.
-11. manage various policies like privacy policy, refund policy, cancellation policy and their details.
+4. manage the speakers and judges of the festival.
+5. manage the sponsors of the festival.
+6. manage the contact information of the organizers.
+7. manage the rules and regulations of the festival and its events.
+8. manage the terms and conditions and various policies like privacy policy, refund policy, cancellation policy and their details.
 
 The website should be...
 
