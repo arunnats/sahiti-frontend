@@ -1,0 +1,42 @@
+@keyframes border-color-shift {
+    0% {
+      border-color: #3b82f6; /* Blue */
+    }
+    50% {
+      border-color: #10b981; /* Green */
+    }
+    100% {
+      border-color: #3b82f6; /* Back to Blue */
+    }
+  }
+  
+  .animate-border-color {
+    animation: border-color-shift 2s infinite;
+  }
+
+  
+  @keyframes border-grow {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .animate-border-grow {
+    animation: border-grow 2s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+  }
+  
+  @keyframes border-animation {
+    0% {
+      stroke-dasharray: 0, 100%; /**/
+    }
+  }
+  

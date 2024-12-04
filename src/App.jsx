@@ -17,7 +17,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-screen min-h-screen justify-between flex flex-col relative font-julius">
+    <div className="  justify-between flex flex-col relative font-julius" >
       
       <Navbar open={isOpen} onClickHam={()=> {setIsOpen(!isOpen)}}/>
       <Routes>
