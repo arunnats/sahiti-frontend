@@ -22,7 +22,7 @@ const Home = () => {
         <MainContent />
       </div>
       <div
-        className="h-[70vh] md:h-screen bg-no-repeat bg-cover bg-[center_top_0%]
+        className="h-[70vh] md:h-[90vh] lg:h-screen bg-no-repeat bg-cover bg-[center_top_0%]
    bg-[url('/bg/Date-Mobile.svg')] 
       sm:bg-[url('/bg/Date-Tablet.svg')] 
       lg:bg-[url('/bg/Date.svg')]    
@@ -56,8 +56,8 @@ const Home = () => {
       </div>
       <Divider />
 
-      <div className="w-[95%] min-h-screen bg-[#feefd7] flex justify-center items-center p-4 mx-auto">
-        <div className="h-[80%] my-10">
+      <div className="w-[95%] min-h-screen bg-[#feefd7] flex justify-center p-4 mx-auto">
+        <div className="h-[80%] my-2">
           <Gallery />
         </div>
       </div>

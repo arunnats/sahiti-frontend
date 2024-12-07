@@ -15,7 +15,7 @@ const Divider = () => {
     >
       <img
         src="/illustrations/dividerComp.svg"
-        className="w-14 h-14 translate-y-1"
+        className="w-14 h-14 "
         alt="Divider Logo"
       />
     </Marquee>
