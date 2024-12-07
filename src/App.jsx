@@ -13,25 +13,24 @@ import Navbar from "./components/Common/Navbar";
 import Footer from "./components/Common/Footer";
 
 function App() {
-
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="  justify-between flex flex-col relative font-julius" >
-      
-      <Navbar open={isOpen} onClickHam={()=> {setIsOpen(!isOpen)}}/>
+
+    <div className="">
+      {/* <Navbar open={isOpen} onClickHam={()=> {setIsOpen(!isOpen)}}/> */}
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/marketing' element={ <Marketing />}/>
-        <Route path='/contact' element={ <Contact /> }/>
-        <Route path='/schedule' element={ <Schedule />}/>
-        <Route path='/toc' element={ <Terms />}/>
-        <Route path='/sponsors' element={ <Sponsors />}/>
-        <Route path='/workshops' element={ <Workshops />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/marketing" element={<Marketing />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/toc" element={<Terms />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/workshops" element={<Workshops />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
-      );
+  );
 }
 
 export default App;
