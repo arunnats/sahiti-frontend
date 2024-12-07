@@ -16,6 +16,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
+
     <div className="">
       {/* <Navbar open={isOpen} onClickHam={()=> {setIsOpen(!isOpen)}}/> */}
       <Routes>
