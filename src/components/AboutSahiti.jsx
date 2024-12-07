@@ -6,7 +6,9 @@ const AboutSahiti = () => {
       {/* Logo Image */}
       <img
         className="w-[40vw] ipadAir:w-[35vw] smallHeight:w-[40vw] md:w-[25vw] lg:w-[15vw] h-auto"
+        // className="w-[40vw] ipadAir:w-[35vw] smallHeight:w-[40vw] md:w-[25vw] lg:w-[20vw] h-auto"
         src="/logos/logo-orange.png"
+        // src="/logos/lnd-orange.jpg"
         alt="Sahiti Logo"
       />
 

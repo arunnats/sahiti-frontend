@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer
       className="font-poppins text-white relative"
-      style={{ backgroundColor: "#E97451" }}
+      style={{ backgroundColor: "#fe7f49" }}
     >
       {/* FLORAL BORDER */}
       <div className="top-0 left-0 overflow-hidden">

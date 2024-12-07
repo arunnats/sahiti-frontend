@@ -7,6 +7,7 @@ const Button = ({
   borderColor,
   useAlternateStyle = false,
   children,
+  big = false,
 }) => {
   return (
     <a
@@ -18,7 +19,11 @@ const Button = ({
         color: textColor,
         borderColor: borderColor || "transparent",
       }}
-      className={`w-[30vw] h-[4.1vw] md:w-[18vw] md:h-[3.9vw] px-1 py-4 rounded-full align-middle font-medium text-[3vw] md:text-[1.8vw] text-center hover:opacity-90 transition-opacity duration-400 ${
+      className={`${
+        big
+          ? "w-[60vw] h-[12vw] md:w-[18vw] md:h-[3.9vw] text-[5vw] md:text-[1.8vw]"
+          : "w-[30vw] h-[4.1vw] md:w-[18vw] md:h-[3.9vw] text-[3vw] md:text-[1.8vw]"
+      } px-1 py-4 rounded-full align-middle font-medium text-center hover:opacity-90 transition-opacity duration-400 ${
         useAlternateStyle ? "border-2" : ""
       }`}
     >

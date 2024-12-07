@@ -4,6 +4,7 @@ import MainContent from "../components/MainContent";
 import AboutSahiti from "../components/AboutSahiti";
 import Debate from "../components/Debate";
 import Divider from "../components/Common/Divider";
+import Gallery from "../components/Gallery/Gallery";
 
 const Home = () => {
   return (
@@ -39,6 +40,9 @@ const Home = () => {
       >
         {" "}
         <Debate />
+      </div>
+      <div>
+        <Gallery />
       </div>
     </div>
   );

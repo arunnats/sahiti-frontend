@@ -6,11 +6,11 @@ const Debate = () => {
     <div className="flex flex-col md:flex-row items-center w-full space-x-10 ">
       <div className="flex flex-col justify-center items-center w-full px-4 md:px-8 lg:px-16 ">
         {/* Logo Image */}
-        <h3 className="text-[4.4vw] ipadAir:text-[2.3vw] smallHeight:text-[3.6vw] md:text-[2vw] lg:text-[5.2vw] font-caslon w-[90vw] ipadAir:w-[80vw] smallHeight:w-[85vw] md:w-[75vw] lg:w-[55vw] mt-[6vw] lg:mt-[4vw] text-[#FF7900] text-center leading-relaxed">
+        <h3 className="text-[12vw] ipadAir:text-[2.3vw] smallHeight:text-[3.6vw] md:text-[2vw] lg:text-[5.2vw] font-caslon w-[90vw] ipadAir:w-[80vw] smallHeight:w-[85vw] md:w-[75vw] lg:w-[55vw] mt-[6vw] lg:mt-[4vw] text-[#FF7900] text-center leading-none">
           Sahiti Parliamentary Debate
         </h3>
         <img
-          className="w-[25vw] "
+          className="w-[70vw] ipadAir:w-[35vw] smallHeight:w-[40vw] md:w-[25vw] lg:w-[25vw] my-3"
           src="/logos/debate-orange.png"
           alt="Sahiti Debate"
         />
@@ -26,11 +26,12 @@ const Debate = () => {
             we invite all to participate. Mark your calendars for Sahiti!
           </p>
         </div>
-        <div className="flex flex-row justify-center items-center space-x-4 mt-6">
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-x-4 md:space-y-0 mt-6">
           <Button
             link="https://example.com"
             bgColor="#FF8343"
             textColor="#FFFDD0"
+            big={true}
           >
             Learn More
           </Button>
@@ -40,6 +41,7 @@ const Debate = () => {
             textColor="#FF8343"
             borderColor="#FF8343"
             useAlternateStyle={true}
+            big={true}
           >
             Register
           </Button>
