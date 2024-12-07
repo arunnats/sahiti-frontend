@@ -1,15 +1,13 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      
-       
       screens: {
-        'bpoint1': '1330px', 
-        'bpoint2': '1130px',// Custom breakpoint for 1000px
-        'bpoint3': '964px',
-        'bpoint4': '887px',
+        ipadAir: { raw: "(min-width: 800px) and (max-width: 980px)" },
+        smallHeight: { raw: "(max-height: 700px)" },
+        medHeight: { raw: "(min-height: 701px) and (max-height: 750px)" },
+        tallHeight: { raw: "(min-height: 751px)" },
+        ...require("tailwindcss/defaultTheme").screens,
       },
       fontFamily: {
         julius: ["Julius Sans One", "sans-serif"],

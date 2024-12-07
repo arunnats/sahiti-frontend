@@ -9,16 +9,15 @@ import Sponsors from "./pages/Sponsors";
 import Workshops from "./pages/Workshops";
 import Contact from "./pages/Contact";
 
-import Navbar from "./components/Common/Navbar";
+import Navbar from "./components/Navbar";
+import MarqueeOrange from "./components/Common/MarqueeOrange";
 import Footer from "./components/Common/Footer";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-
     <div className="">
-      {/* <Navbar open={isOpen} onClickHam={()=> {setIsOpen(!isOpen)}}/> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/marketing" element={<Marketing />} />
@@ -28,7 +27,7 @@ function App() {
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/workshops" element={<Workshops />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
