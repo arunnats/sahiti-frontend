@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       screens: {
         ipadAir: { raw: "(min-width: 800px) and (max-width: 980px)" },
+        ipadPro: { raw: "(min-width: 981px) and (max-width: 1025px)" },
         smallHeight: { raw: "(max-height: 700px)" },
         medHeight: { raw: "(min-height: 701px) and (max-height: 750px)" },
         tallHeight: { raw: "(min-height: 751px)" },

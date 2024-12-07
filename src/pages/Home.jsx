@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <div className="bg-[#feefd7]">
       <div
+        id="about"
         className="h-screen bg-no-repeat bg-cover bg-[center_top_98%]
       bg-[url('/bg/Hero-Mobile.svg')] 
       sm:bg-[url('/bg/Hero-Tablet.svg')] 
@@ -22,7 +23,8 @@ const Home = () => {
         <MainContent />
       </div>
       <div
-        className="h-[70vh] md:h-[90vh] lg:h-screen bg-no-repeat bg-cover bg-[center_top_0%]
+        id="about"
+        className="h-[70vh] md:h-[90vh] ipadPro:h-[80vh] lg:h-screen bg-no-repeat bg-cover bg-[center_top_0%]
    bg-[url('/bg/Date-Mobile.svg')] 
       sm:bg-[url('/bg/Date-Tablet.svg')] 
       lg:bg-[url('/bg/Date.svg')]    
@@ -35,7 +37,8 @@ const Home = () => {
         <Divider2 />
       </div>
       <div
-        className="h-screen bg-no-repeat bg-cover bg-[center_top_100%]
+        id="about"
+        className="ipadPro:h-[85vh] h-screen bg-no-repeat bg-cover bg-[center_top_100%]
    bg-[url('/bg/AboutSahiti-Mobile.svg')] 
       sm:bg-[url('/bg/AboutSahiti-Tablet.svg')] 
       lg:bg-[url('/bg/AboutSahiti.svg')]    
@@ -45,7 +48,8 @@ const Home = () => {
       </div>
 
       <div
-        className="h-screen bg-no-repeat bg-cover bg-[center_top_0%]
+        id="debate"
+        className="ipadPro:h-[85vh] h-screen bg-no-repeat bg-cover bg-[center_top_0%]
       bg-[url('/bg/Debate-Mobile.svg')] 
     sm:bg-[url('/bg/Debate-Tablet.svg')] 
       lg:bg-[url('/bg/Debate.svg')]  
@@ -56,7 +60,10 @@ const Home = () => {
       </div>
       <Divider />
 
-      <div className="w-[95%] min-h-screen bg-[#feefd7] flex justify-center p-4 mx-auto">
+      <div
+        id="gallery"
+        className="w-[95%] min-h-screen bg-[#feefd7] flex justify-center p-4 mx-auto"
+      >
         <div className="h-[80%] my-2">
           <Gallery />
         </div>

@@ -5,7 +5,7 @@ const AboutSahiti = () => {
     <div className="flex flex-col justify-center items-center w-full px-4 md:px-8 lg:px-16 my-16 medHeight:my-8">
       {/* Logo Image */}
       <img
-        className="w-[40vw] ipadAir:w-[35vw] smallHeight:w-[40vw] md:w-[40vw] lg:w-[15vw] h-auto"
+        className="w-[40vw] ipadAir:w-[40vw] ipadPro:w-[30vw] smallHeight:w-[40vw] md:w-[40vw] lg:w-[20vw] h-auto"
         // className="w-[40vw] ipadAir:w-[35vw] smallHeight:w-[40vw] md:w-[25vw] lg:w-[20vw] h-auto"
         src="/logos/logo-orange.png"
         // src="/logos/lnd-orange.jpg"
@@ -13,7 +13,7 @@ const AboutSahiti = () => {
       />
 
       {/* Text Content */}
-      <div className="text-[4.4vw] ipadAir:text-[2.3vw] smallHeight:text-[3.6vw] md:text-[2.7vw] lg:text-[1.35vw] font-poppins w-[90vw] ipadAir:w-[80vw] smallHeight:w-[85vw] md:w-[75vw] lg:w-[55vw] mt-[6vw] lg:mt-[4vw] text-[#FF7900] text-justify leading-relaxed">
+      <div className="text-[4.4vw] ipadAir:text-[3vw] ipadPro:text-[2.7vw] smallHeight:text-[3.6vw] md:text-[2.7vw] lg:text-[1.35vw] font-poppins w-[90vw] ipadAir:w-[80vw] smallHeight:w-[85vw] md:w-[75vw] ipadPro:w-[75vw] lg:w-[55vw] mt-[6vw] lg:mt-[2vw] text-[#FF7900] text-justify leading-relaxed">
         <p>
           Welcome to the world of Sahiti, the literature fest organized by the
           Literary and Debating Club of NITC! Leveraging Kozhikode's designation

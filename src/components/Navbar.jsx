@@ -1,7 +1,22 @@
 import React from "react";
 import { Link } from "react-router";
+import gsap from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
+gsap.registerPlugin(ScrollToPlugin);
 
 const Navbar = () => {
+  const scrollToSection = (id) => {
+    const target = document.getElementById(id);
+    if (target) {
+      gsap.to(window, {
+        duration: 1.2,
+        scrollTo: { y: target.offsetTop, autoKill: true },
+        ease: "power2.inOut",
+      });
+    }
+  };
+
   return (
     <div className="navbar font-poppins text-[#FFEFD5] mt-4">
       <div className="navbar-start">
@@ -25,16 +40,16 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-[#FFEFD5] text-[#FF8343] rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li>
+            <li onClick={() => scrollToSection("about")}>
               <a>About</a>
             </li>
-            <li>
+            <li onClick={() => scrollToSection("about")}>
               <a>Debate</a>
             </li>
             <li>
               <a>Sponsors</a>
             </li>
-            <li>
+            <li onClick={() => scrollToSection("about")}>
               <a>Gallery</a>
             </li>
           </ul>
@@ -42,28 +57,28 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-2xl">
-          <li>
+          <li onClick={() => scrollToSection("about")}>
             <a>About</a>
           </li>
-          <li>
+          <li onClick={() => scrollToSection("debate")}>
             <a>Debate</a>
           </li>
           <li>
             <a>Sponsors</a>
           </li>
-          <li>
+          <li onClick={() => scrollToSection("gallery")}>
             <a>Gallery</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href="/">
+        <li onClick={() => scrollToSection("main")}>
           <img
             className="translate-y-1"
             src="/illustrations/homeButton.svg"
             alt="Home Button"
           />
-        </Link>
+        </li>
       </div>
     </div>
   );
