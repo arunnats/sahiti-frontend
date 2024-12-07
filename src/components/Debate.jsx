@@ -3,7 +3,7 @@ import Button from "./Common/Button";
 
 const Debate = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center w-full space-x-10 ">
+    <div className="flex flex-col md:flex-row items-center w-full space-x-10 my-[7vh] md:my-[2.5vw]">
       <div className="flex flex-col justify-center items-center w-full px-4 md:px-8 lg:px-16 ">
         {/* Logo Image */}
         <h3 className="text-[12vw] ipadAir:text-[2.3vw] smallHeight:text-[3.6vw] md:text-[2vw] lg:text-[5.2vw] font-caslon w-[90vw] ipadAir:w-[80vw] smallHeight:w-[85vw] md:w-[75vw] lg:w-[55vw] mt-[6vw] lg:mt-[4vw] text-[#FF7900] text-center leading-none">
