@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import MainContent from "../components/MainContent";
 import AboutSahiti from "../components/AboutSahiti";
 import Debate from "../components/Debate";
+import Dates from "../components/Dates";
 import Divider from "../components/Common/Divider";
 import Divider2 from "../components/Common/Divider2";
 import Gallery from "../components/Gallery/Gallery";
@@ -21,13 +22,13 @@ const Home = () => {
         <MainContent />
       </div>
       <div
-        className="h-screen bg-no-repeat bg-cover bg-[center_top_0%]
+        className="h-[70vh] md:h-screen bg-no-repeat bg-cover bg-[center_top_0%]
    bg-[url('/bg/Date-Mobile.svg')] 
       sm:bg-[url('/bg/Date-Tablet.svg')] 
       lg:bg-[url('/bg/Date.svg')]    
       flex flex-col items-center px-8 lg:px-16 overflow-hidden"
       >
-        {/* <AboutSahiti /> */}
+        <Dates />
       </div>
       <div className="overflow-hidden">
         {" "}

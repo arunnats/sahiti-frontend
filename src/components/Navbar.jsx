@@ -35,7 +35,7 @@ const Navbar = () => {
               <a>Sponsors</a>
             </li>
             <li>
-              <a>Gallary</a>
+              <a>Gallery</a>
             </li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
             <a>Sponsors</a>
           </li>
           <li>
-            <a>Gallary</a>
+            <a>Gallery</a>
           </li>
         </ul>
       </div>

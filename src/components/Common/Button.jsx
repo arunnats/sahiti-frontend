@@ -27,7 +27,7 @@ const Button = ({
         useAlternateStyle ? "border-2" : ""
       }`}
     >
-      <div className="-translate-y-[1.6vw] md:-translate-y-[0.9vw] lg:-translate-y-[0.3vw]">
+      <div className="-translate-y-[1.6vw] md:-translate-y-[0.9vw] lg:-translate-y-[0.3vw] font-poppins">
         {children}
       </div>
     </a>
