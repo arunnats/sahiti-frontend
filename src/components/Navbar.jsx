@@ -56,7 +56,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-2xl">
+        <ul className="menu menu-horizontal px-1 text-xl">
           <li onClick={() => scrollToSection("about")}>
             <Link href="/about">About</Link>
           </li>
