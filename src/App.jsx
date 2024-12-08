@@ -16,7 +16,7 @@ import Footer from "./components/Common/Footer";
 
 function App() {
   return (
-    <div className="">
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
@@ -25,7 +25,7 @@ function App() {
         <Route path="/debate" element={<Debate />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 
