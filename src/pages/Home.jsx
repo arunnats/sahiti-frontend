@@ -9,67 +9,67 @@ import Divider2 from "../components/Common/Divider2";
 import Gallery from "../components/Gallery/Gallery";
 
 const Home = () => {
-  return (
-    <div className="bg-[#feefd7]">
-      <div
-        id="about"
-        className="h-screen bg-no-repeat bg-cover bg-[center_top_98%]
+	return (
+		<div className="bg-[#feefd7]">
+			<div
+				id="about"
+				className="h-screen bg-no-repeat bg-cover bg-[center_top_98%]
       bg-[url('/bg/Hero-Mobile.svg')] 
       sm:bg-[url('/bg/Hero-Tablet.svg')] 
       lg:bg-[url('/bg/Hero-Desktop.svg')]
       flex flex-col items-center px-2 md:px-8 lg:px-16 overflow-hidden"
-      >
-        <Navbar />
-        <MainContent />
-      </div>
-      <div
-        id="about"
-        className="bg-no-repeat bg-cover bg-[center_top_0%]
+			>
+				<Navbar />
+				<MainContent />
+			</div>
+			<div
+				id="about"
+				className="bg-no-repeat bg-cover bg-[center_top_0%]
    bg-[url('/bg/Date-Mobile.svg')] 
       sm:bg-[url('/bg/Date-Tablet.svg')] 
       lg:bg-[url('/bg/Date.svg')]    
       flex flex-col items-center px-8 lg:px-16 overflow-hidden"
-      >
-        <Dates />
-      </div>
-      <div className="overflow-hidden">
-        {" "}
-        <Divider2 />
-      </div>
-      <div
-        id="about"
-        className="ipadPro:h-[85vh] h-screen bg-no-repeat bg-cover bg-[center_top_100%]
+			>
+				<Dates />
+			</div>
+			<div className="overflow-hidden">
+				{" "}
+				<Divider2 />
+			</div>
+			<div
+				id="about"
+				className="ipadPro:h-[85vh] h-screen lg:h-auto bg-no-repeat bg-cover bg-[center_top_100%]
    bg-[url('/bg/AboutSahiti-Mobile.svg')] 
       sm:bg-[url('/bg/AboutSahiti-Tablet.svg')] 
       lg:bg-[url('/bg/AboutSahiti.svg')]    
       flex flex-col items-center px-8 lg:px-16 overflow-hidden"
-      >
-        <AboutSahiti />
-      </div>
+			>
+				<AboutSahiti />
+			</div>
 
-      <div
-        id="debate"
-        className="ipadPro:h-[85vh] h-screen bg-no-repeat bg-cover bg-[center_top_0%]
+			<div
+				id="debate"
+				className="ipadPro:h-[85vh] h-screen lg:h-auto bg-no-repeat bg-cover bg-[center_top_0%]
       bg-[url('/bg/Debate-Mobile.svg')] 
     sm:bg-[url('/bg/Debate-Tablet.svg')] 
       lg:bg-[url('/bg/Debate.svg')]  
       flex flex-col items-center px-8 lg:px-16 overflow-hidden"
-      >
-        {" "}
-        <Debate />
-      </div>
-      <Divider />
+			>
+				{" "}
+				<Debate />
+			</div>
+			<Divider />
 
-      <div
-        id="gallery"
-        className="w-[95%] min-h-screen bg-[#feefd7] flex justify-center p-4 mx-auto"
-      >
-        <div className="h-[80%] my-2">
-          <Gallery />
-        </div>
-      </div>
-    </div>
-  );
+			<div
+				id="gallery"
+				className="w-[95%] min-h-screen bg-[#feefd7] flex justify-center p-4 mx-auto"
+			>
+				<div className="h-[80%] my-2">
+					<Gallery />
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Home;
