@@ -46,15 +46,15 @@ const Navbar = () => {
 						<li>
 							<Link to="/about">About</Link>
 						</li>
-						<li>
+						{/* <li>
 							<Link to="/debate">Debate</Link>
-						</li>
+						</li> */}
 						<li>
 							<Link to="/sponsors">Sponsors</Link>
 						</li>
-						<li>
+						{/* <li>
 							<Link to="/contact">Contact</Link>
-						</li>
+						</li> */}
 					</ul>
 				</div>
 			</div>
@@ -66,15 +66,15 @@ const Navbar = () => {
 					<li>
 						<Link to="/about">About</Link>
 					</li>
-					<li>
+					{/* <li>
 						<Link to="/debate">Debate</Link>
-					</li>
+					</li> */}
 					<li>
 						<Link to="/sponsors">Sponsors</Link>
 					</li>
-					<li>
+					{/* <li>
 						<Link to="/contact">Contact</Link>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 			<div className="navbar-end"></div>

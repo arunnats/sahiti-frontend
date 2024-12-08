@@ -75,23 +75,7 @@ const Sponsors = () => {
 					src="/logos/logo-cream.png"
 					alt="alt"
 				/>
-				<p className="text-white m-10 mt-7 mb-3 px-4 md:px-52 text-xl text-justify">
-					<a href="https://www.lndnitc.org/" className="font-bold underline ">
-						The Literary and Debating Club
-					</a>{" "}
-					of NIT Calicut is one of the oldest and the most prestigious clubs of
-					NITC. Kindled by the passion for the world of literature, the club is
-					a stage for people to to flaunt their belletristic, oratory and
-					expressive genius. Through the years, we have been striving
-					persistently to spread our expense in close accordance with our rule
-					of thumb, 'Deeds not Words'. Organizing competitions in extempore,
-					elocution, debates, quizzes and so much more has helped the club live
-					up to and beyond the expectations for which it was set up.
-					<br />
-					<br />
-					To explore the various ventures of LnD, visit :
-				</p>
-
+				<div className="mt-7"></div>
 				<Button
 					link="/brochures/Marketing-Sahiti-Brochure.pdf"
 					bgColor="#FFFDD0"
@@ -100,6 +84,56 @@ const Sponsors = () => {
 				>
 					Marketing Brochure
 				</Button>
+
+				<h2 className="text-white text-3xl font-bold mt-8 text-left">
+					Why Sponsor Sahiti?
+				</h2>
+
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+					<strong>Sponsoring Sahiti</strong> will be an excellent opportunity to
+					enhance your brand's visibility and connect with the target audience.
+				</p>
+
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+					Sahiti will attract a wide range of audience across various age
+					groups, from school-going children to professional adults. Students,
+					professionals from various institutes across the state and country
+					will be a part of the event's footfall. Via sponsorship, your brand
+					can make a lasting impact on the diverse audience.
+				</p>
+
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+					Along with this, your logo will be prominently displayed over the
+					event banners, material and social media campaigns. This will provide
+					your brand with exposure before, during and after the event.
+				</p>
+
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+					Sahiti will host various Literary and non-literary events spanning
+					across various domains. Aligning your brand with related domains will
+					demonstrate your commitment to fostering development to the
+					participants.
+				</p>
+
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+					Sahiti will be a great platform to gain direct access to possible
+					clients and customers. Your presence as a sponsor will position you as
+					a trusted part of the community.
+				</p>
+
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+					We offer <strong>customized sponsorship packages</strong> to suit your
+					needs and budget. Whether you aim to engage directly with your target
+					audience, launch a product or boost brand awareness, we have options
+					suiting your aim.
+				</p>
+
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+					Sahiti aims to not just be an event, but an unforgettable experience
+					for its audience. As a sponsor, you can help us create these
+					everlasting memories for the audience by associating your brand with
+					an event they will talk about for years.
+				</p>
 
 				<br />
 			</div>

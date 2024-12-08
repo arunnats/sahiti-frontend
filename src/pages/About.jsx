@@ -71,6 +71,16 @@ const About = () => {
 				<Navbar />
 				<h1 className="text-white text-5xl font-bold mt-8">About Us</h1>
 				<img className="h-[150px] w-auto mt-6" src="/logos/lnd.png" alt="alt" />
+				<div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-x-4 md:space-y-0 mt-6">
+					<Button
+						link="/brochures/Sahiti-Brochure.pdf"
+						bgColor="#FFFDD0"
+						textColor="#FF8343"
+						isPDF={true}
+					>
+						View Brochure
+					</Button>
+				</div>
 				<p className="text-white m-10 mt-7 mb-3 px-4 md:px-52 text-xl text-justify">
 					<a href="https://www.lndnitc.org/" className="font-bold underline ">
 						The Literary and Debating Club
