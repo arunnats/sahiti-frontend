@@ -41,7 +41,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-[#FFEFD5] text-[#FF8343] rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li onClick={() => scrollToSection("about")}>
-              <a>About</a>
+              <Link href="/about">About</Link>
             </li>
             <li onClick={() => scrollToSection("about")}>
               <a>Debate</a>
@@ -50,7 +50,7 @@ const Navbar = () => {
               <a>Sponsors</a>
             </li>
             <li onClick={() => scrollToSection("about")}>
-              <a>Gallery</a>
+              <a>Contact</a>
             </li>
           </ul>
         </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-2xl">
           <li onClick={() => scrollToSection("about")}>
-            <a>About</a>
+            <Link href="/about">About</Link>
           </li>
           <li onClick={() => scrollToSection("debate")}>
             <a>Debate</a>
@@ -67,7 +67,7 @@ const Navbar = () => {
             <a>Sponsors</a>
           </li>
           <li onClick={() => scrollToSection("gallery")}>
-            <a>Gallery</a>
+            <a>Contact</a>
           </li>
         </ul>
       </div>

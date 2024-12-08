@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 
-const Contact = () => {
+const Debate = () => {
   return (
     <div className="bg-[#E97451] relative">
       {/* First Section */}
@@ -35,4 +35,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Debate;

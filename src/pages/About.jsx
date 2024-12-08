@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 
-const Contact = () => {
+const About = () => {
   return (
     <div className="bg-[#E97451] relative">
       {/* First Section */}
@@ -31,8 +31,30 @@ const Contact = () => {
           This is the first section of the page.
         </p>
       </div>
+
+      {/* Second Section */}
+      <div className="absolute top-screen z-10 left-0 h-screen rotate-180">
+        <img
+          src="/illustrations/borderTopRight.svg"
+          alt="Left Illustration for Second Section"
+          className="h-full"
+        />
+      </div>
+
+      <div className="absolute top-screen z-10 right-0 h-screen rotate-180">
+        <img
+          src="/illustrations/borderTopLeft.svg"
+          alt="Right Illustration for Second Section"
+          className="h-full"
+        />
+      </div>
+
+      <div
+        id="second-section"
+        className="min-h-screen flex flex-col items-center px-2 md:px-8 lg:px-16 overflow-hidden relative bg-[#E97451]"
+      ></div>
     </div>
   );
 };
 
-export default Contact;
+export default About;

@@ -5,14 +5,6 @@ const Footer = () => {
       className="font-poppins text-white relative"
       style={{ backgroundColor: "#fe7f49" }}
     >
-      {/* FLORAL BORDER */}
-      <div className="top-0 left-0 overflow-hidden">
-        <img
-          className="w-auto relative  h-auto max-w-none max-h-none"
-          src="/logos/floral.svg"
-        ></img>
-      </div>
-
       {/* UPPER FOOTER SECTION */}
       <div className="flex flex-col justify-between bpoint4:pl-3  bpoint4:h-[270px] bpoint4:flex-row">
         {/* GET IN TOUCH AND LOGOS DIV */}
