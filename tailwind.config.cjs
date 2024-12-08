@@ -12,7 +12,7 @@ module.exports = {
       },
       fontFamily: {
         julius: ["Julius Sans One", "sans-serif"],
-        poppins: ['"Poppins"', "sans-serif"],
+        // poppins: ['"Poppins"', "sans-serif"],
         caslon: ['"Caslon Antique"', "serif"],
       },
     },

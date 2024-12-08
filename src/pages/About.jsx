@@ -3,9 +3,9 @@ import Navbar from "../components/Navbar";
 
 const About = () => {
   return (
-    <div className="bg-[#E97451] relative">
+    <div className="bg-[#E97451] w-screen relative overflow-clip">
       {/* First Section */}
-      <div className="absolute top-0 left-0 h-screen">
+      <div className="absolute top-0 -left-14 md:left-0 h-screen">
         <img
           src="/illustrations/borderTopLeft.svg"
           alt="Left Illustration"
@@ -13,7 +13,7 @@ const About = () => {
         />
       </div>
 
-      <div className="absolute top-0 right-0 h-screen">
+      <div className="absolute top-0 -right-14 md:right-0 h-screen">
         <img
           src="/illustrations/borderTopRight.svg"
           alt="Right Illustration"
@@ -33,7 +33,7 @@ const About = () => {
       </div>
 
       {/* Second Section */}
-      <div className="absolute top-screen z-10 left-0 h-screen rotate-180">
+      <div className="absolute top-screen z-10 -left-14 md:left-0 h-screen rotate-180">
         <img
           src="/illustrations/borderTopRight.svg"
           alt="Left Illustration for Second Section"
@@ -41,7 +41,7 @@ const About = () => {
         />
       </div>
 
-      <div className="absolute top-screen z-10 right-0 h-screen rotate-180">
+      <div className="absolute top-screen z-10 -right-14 md:right-0 h-screen rotate-180">
         <img
           src="/illustrations/borderTopLeft.svg"
           alt="Right Illustration for Second Section"
