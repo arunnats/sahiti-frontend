@@ -27,7 +27,12 @@ const Debate = () => {
 					</p>
 				</div>
 				<div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-x-4 md:space-y-0 mt-6">
-					<Button link="" bgColor="#FF8343" textColor="#FFFDD0" big={true}>
+					<Button
+						link="/debate"
+						bgColor="#FF8343"
+						textColor="#FFFDD0"
+						big={true}
+					>
 						Learn More
 					</Button>
 					<Button

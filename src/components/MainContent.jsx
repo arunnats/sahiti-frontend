@@ -42,7 +42,7 @@ const MainContent = () => {
 						src="/logos/logo-orange.png"
 						alt="Sahiti Logo"
 					/>
-					<Button link="/#about" bgColor="#FF8343" textColor="#FFFDD0">
+					<Button link="/about" bgColor="#FF8343" textColor="#FFFDD0">
 						Learn More
 					</Button>
 				</div>

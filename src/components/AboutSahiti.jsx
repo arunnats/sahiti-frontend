@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Common/BiggerButton";
 
 const AboutSahiti = () => {
 	return (
@@ -11,6 +12,17 @@ const AboutSahiti = () => {
 				// src="/logos/lnd-orange.jpg"
 				alt="Sahiti Logo"
 			/>
+
+			<div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-x-4 md:space-y-0 mt-6">
+				<Button
+					link="/brochures/Sahiti-Brochure.pdf"
+					bgColor="#FF8343"
+					textColor="#FFFDD0"
+					isPDF={true}
+				>
+					View Brochure
+				</Button>
+			</div>
 
 			{/* Text Content */}
 			<div className="text-[4.4vw] ipadAir:text-[3vw] ipadPro:text-[2.7vw] smallHeight:text-[3.6vw] md:text-[2.7vw] lg:text-[1.35vw] font-poppins w-[90vw] ipadAir:w-[80vw] smallHeight:w-[85vw] md:w-[75vw] ipadPro:w-[75vw] lg:w-[55vw] mt-[6vw] lg:mt-[2vw] text-[#FF7900] text-justify leading-relaxed">
