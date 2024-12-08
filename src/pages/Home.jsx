@@ -24,7 +24,7 @@ const Home = () => {
       </div>
       <div
         id="about"
-        className="h-[70vh] md:h-[90vh] ipadPro:h-[80vh] lg:h-screen bg-no-repeat bg-cover bg-[center_top_0%]
+        className="bg-no-repeat bg-cover bg-[center_top_0%]
    bg-[url('/bg/Date-Mobile.svg')] 
       sm:bg-[url('/bg/Date-Tablet.svg')] 
       lg:bg-[url('/bg/Date.svg')]    
