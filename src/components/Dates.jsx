@@ -20,7 +20,7 @@ const Dates = () => {
         />
         {/* Date Text */}
         <h3 className="text-[7vw] ipadAir:text-[6vw] ipadPro:text-[6vw] smallHeight:text-[6vw] md:text-[6vw] lg:text-[3.6vw] font-caslon w-[90vw] ipadAir:w-[80vw] smallHeight:w-[85vw] md:w-[75vw] lg:w-[55vw text-[#FFEFD5] mt-[3vh] lg:mt-0 text-center leading-none">
-          11TH AND 12TH JANUARY 2025
+          11TH AND 12TH JANUARY, 2025
         </h3>
 
         <div className="flex flex-col justify-center items-center mt-6 mb-[13vh] lg:mb-[20vh] z-[10]">

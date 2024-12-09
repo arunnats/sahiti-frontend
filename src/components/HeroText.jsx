@@ -12,7 +12,7 @@ const HeroText = () => {
         readings, and engaging workshops.
       </p>
       <p className="font-poppins text-[4.8vw] ipadAir:text-[3.2vw] smallHeight:text-[4.5vw] md:text-[3vw] lg:text-[1.8vw] max-w-[80%] lg:max-w-[60%] leading-tight">
-        Join us at Sahiti, Where literature meets inspiration!
+        Join us at Sahiti, where literature meets inspiration!
       </p>
     </div>
   );

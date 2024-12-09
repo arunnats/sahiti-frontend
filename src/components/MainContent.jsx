@@ -29,10 +29,10 @@ const MainContent = () => {
 					readings, and engaging workshops.
 				</p>
 				<p className="font-poppins text-[4.5vw] ipadAir:text-[3.3vw] ipadPro:text-[2.4vw] smallHeight:text-[4.5vw] md:text-[3vw] lg:text-[1.4vw] max-w-[80%] ipadPro:max-w-[90%] lg:max-w-[60%] leading-tight">
-					Join us at Sahiti, Where literature meets inspiration!
+					Join us at Sahiti, where literature meets inspiration!
 				</p>
 				<p className="font-poppins font-bold text-[5.4vw] ipadAir:text-[4vw] ipadPro:text-[4vw] smallHeight:text-[4.5vw] md:text-[3vw] lg:text-[2.4vw] max-w-[80%] lg:max-w-[60%] leading-tight">
-					January 11 & 12 2025
+					January 11 & 12, 2025
 				</p>
 			</div>
 			<div className="w-full ipadAir:w-[35%] smallHeight:w-[40%] flex flex-col items-center translate-y-[15.5vh] ipadAir:translate-y-[45vh] ipadPro:translate-y-[45vh] smallHeight:translate-y-[22vh] md:translate-y-[38vh] lg:translate-y-[14vh]">

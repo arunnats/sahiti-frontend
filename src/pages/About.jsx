@@ -75,8 +75,8 @@ const About = () => {
 			>
 				<Navbar />
 				<h1 className="text-white text-6xl font-bold mt-8">About Us</h1>
-				<h1 className="text-white text-5xl font-bold mt-8">The Literary And</h1>
-				<h1 className="text-white text-5xl font-bold">Debating Club NITC</h1>
+				<h1 className="text-white text-5xl font-bold mt-8">The Literary and</h1>
+				<h1 className="text-white text-5xl font-bold">Debating Club, NITC</h1>
 
 				<img className="h-[150px] w-auto mt-6" src="/logos/lnd.png" alt="alt" />
 				<div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-x-4 md:space-y-0 mt-6">
