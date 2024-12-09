@@ -18,11 +18,11 @@ const Debate = () => {
 				{/* Text Content */}
 				<div>
 					<p className="text-[4.4vw] ipadAir:text-[3.4vw] ipadPro:text-[2.8vw] smallHeight:text-[3.75vw] md:text-[3vw] lg:text-[1.35vw] font-poppins w-[90vw] ipadAir:w-[80vw] smallHeight:w-[85vw] md:w-[75vw] ipadPro:w-[80vw] lg:w-[55vw] mt-[3vw] lg:mt-[2vw] text-[#FF7900] text-justify leading-relaxed">
-						The Sahiti Parliamentary Debate is the highlight of our flagship
-						literature fest, a place where wits will clash and passionate
-						speakers will come forward to compete in this battleground of ideas,
-						opinions and facts. Whether you are a novice, looking up for
-						challenges or a veteran debater who likes to dominate the debates,
+						The flagship event of Sahiti is the Parliamentary Debate—a platform 
+						for wits to clash and passionate speakers to come forward 
+					        and compete in a battleground of ideas, opinions and facts. 
+						Whether you are a novice, looking up for challenges or a 
+						veteran debater who likes to dominate the debates,
 						we invite all to participate. Mark your calendars for Sahiti!
 					</p>
 				</div>
