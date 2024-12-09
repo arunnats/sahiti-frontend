@@ -33,6 +33,11 @@ const Sponsors = () => {
 					alt="Left Illustration block"
 					className="w-[104px]"
 				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
 			</div>
 
 			{/* Left Right Border */}
@@ -62,6 +67,11 @@ const Sponsors = () => {
 					alt="Left Illustration block"
 					className="w-[104px]"
 				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
 			</div>
 
 			<div
@@ -69,7 +79,9 @@ const Sponsors = () => {
 				className="h-max flex flex-col items-center px-2 md:px-8 lg:px-16 overflow-hidden relative "
 			>
 				<Navbar />
-				<h1 className="text-white text-5xl font-bold mt-8">Call to Sponsors</h1>
+				<h1 className="text-white text-3xl md:text-5xl font-bold mt-8">
+					Call to Sponsors
+				</h1>
 				<img
 					className="h-[150px] w-auto mt-6"
 					src="/logos/logo-cream.png"
@@ -89,12 +101,12 @@ const Sponsors = () => {
 					Why Sponsor Sahiti?
 				</h2>
 
-				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
 					<strong>Sponsoring Sahiti</strong> will be an excellent opportunity to
 					enhance your brand's visibility and connect with the target audience.
 				</p>
 
-				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
 					Sahiti will attract a wide range of audience across various age
 					groups, from school-going children to professional adults. Students,
 					professionals from various institutes across the state and country
@@ -102,33 +114,33 @@ const Sponsors = () => {
 					can make a lasting impact on the diverse audience.
 				</p>
 
-				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
 					Along with this, your logo will be prominently displayed over the
 					event banners, material and social media campaigns. This will provide
 					your brand with exposure before, during and after the event.
 				</p>
 
-				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
 					Sahiti will host various Literary and non-literary events spanning
 					across various domains. Aligning your brand with related domains will
 					demonstrate your commitment to fostering development to the
 					participants.
 				</p>
 
-				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
 					Sahiti will be a great platform to gain direct access to possible
 					clients and customers. Your presence as a sponsor will position you as
 					a trusted part of the community.
 				</p>
 
-				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
 					We offer <strong>customized sponsorship packages</strong> to suit your
 					needs and budget. Whether you aim to engage directly with your target
 					audience, launch a product or boost brand awareness, we have options
 					suiting your aim.
 				</p>
 
-				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-xl text-justify">
+				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
 					Sahiti aims to not just be an event, but an unforgettable experience
 					for its audience. As a sponsor, you can help us create these
 					everlasting memories for the audience by associating your brand with
