@@ -33,6 +33,11 @@ const About = () => {
 					alt="Left Illustration block"
 					className="w-[104px]"
 				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
 			</div>
 
 			{/* Left Right Border */}
@@ -69,7 +74,10 @@ const About = () => {
 				className="h-max flex flex-col items-center px-2 md:px-8 lg:px-16 overflow-hidden relative "
 			>
 				<Navbar />
-				<h1 className="text-white text-5xl font-bold mt-8">About Us</h1>
+				<h1 className="text-white text-6xl font-bold mt-8">About Us</h1>
+				<h1 className="text-white text-5xl font-bold mt-8">The Literary And</h1>
+				<h1 className="text-white text-5xl font-bold">Debating Club NITC</h1>
+
 				<img className="h-[150px] w-auto mt-6" src="/logos/lnd.png" alt="alt" />
 				<div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-x-4 md:space-y-0 mt-6">
 					<Button
@@ -106,6 +114,42 @@ const About = () => {
 				</Button>
 
 				<br />
+				<h1 className="text-white text-5xl font-bold mt-8">
+					Center For Cultural And
+				</h1>
+				<h1 className="text-white text-5xl font-bold">Art Relations NITC</h1>
+				<img
+					className="h-[200px] w-auto mt-6"
+					src="/logos/ccar-logo.png"
+					alt="alt"
+				/>
+
+				<p className="text-white m-10 mt-7 mb-3 px-4 md:px-52 text-xl text-justify">
+					<a
+						href="https://nitc.ac.in/multidiscilplinary-centres/centre-for-cultural-and-art-relations-ccar"
+						className="font-bold underline "
+					>
+						The Center for Cultural and Art Relations
+					</a>{" "}
+					at NIT Calicut promotes a holistic approach to engineering education
+					by integrating fine and performing arts into the curriculum. Aligned
+					with the NEP 2020 vision, CCAR nurtures creativity, innovation, and
+					multidisciplinary learning through workshops, micro-credit courses,
+					and public events. By blending arts and engineering, the center
+					inspires students to explore new perspectives, develop essential
+					skills like coordination and confidence, and pursue their hobbies
+					alongside academics, fostering a community of artistic engineers.
+					<br />
+					<br />
+					To explore the various ventures of the CCAR, visit :
+				</p>
+				<Button
+					link="https://nitc.ac.in/multidiscilplinary-centres/centre-for-cultural-and-art-relations-ccar/"
+					bgColor="#FFFDD0"
+					textColor="#FF8343"
+				>
+					CCAR NITC
+				</Button>
 			</div>
 
 			{/* Second Section */}
