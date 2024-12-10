@@ -108,8 +108,8 @@ const Sponsors = () => {
 
 				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
 					Sahiti will attract a wide range of audience across various age
-					groups, from school-going children to professional adults. Students,
-					professionals from various institutes across the state and country
+					groups, from school-going children to professional adults. Coming from
+					various institutes across the state and country, they 
 					will be a part of the event's footfall. Via sponsorship, your brand
 					can make a lasting impact on the diverse audience.
 				</p>
@@ -117,11 +117,11 @@ const Sponsors = () => {
 				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
 					Along with this, your logo will be prominently displayed over the
 					event banners, material and social media campaigns. This will provide
-					your brand with exposure before, during and after the event.
+					your brand with exposure before, during, and after the event.
 				</p>
 
 				<p className="text-white m-10 mt-3 mb-3 px-4 md:px-52 text-lg md:text-xl text-justify">
-					Sahiti will host various Literary and non-literary events spanning
+					Sahiti will host various literary and non-literary events spanning
 					across various domains. Aligning your brand with related domains will
 					demonstrate your commitment to fostering development to the
 					participants.
