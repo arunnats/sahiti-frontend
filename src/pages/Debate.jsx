@@ -1,36 +1,133 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Button from "../components/Common/Button";
+import Gallery from "../components/Gallery/Gallery";
 
 const Debate = () => {
   return (
-    <div className="bg-[#E97451] relative">
-      {/* First Section */}
-      <div className="absolute top-0 left-0 h-screen">
+    <div className="bg-[#FF8343] p-0 m-0 relative overflow-clip h-max">
+      {/* Left  Border */}
+      <div className="absolute top-0 -left-14 md:left-0 md:h-screen h-[50%]">
         <img
           src="/illustrations/borderTopLeft.svg"
           alt="Left Illustration"
-          className="h-full"
+          className="w-[241px]"
+        />
+        <img
+          src="/illustrations/border-block.svg"
+          alt="Left Illustration block"
+          className="w-[104px]"
+        />
+        <img
+          src="/illustrations/border-block.svg"
+          alt="Left Illustration block"
+          className="w-[104px]"
+        />
+        <img
+          src="/illustrations/border-block.svg"
+          alt="Left Illustration block"
+          className="w-[104px]"
+        />
+        <img
+          src="/illustrations/border-block.svg"
+          alt="Left Illustration block"
+          className="w-[104px]"
+        />
+        <img
+          src="/illustrations/border-block.svg"
+          alt="Left Illustration block"
+          className="w-[104px]"
         />
       </div>
 
-      <div className="absolute top-0 right-0 h-screen">
+      {/* Left Right Border */}
+      <div className="absolute top-0 -right-14 md:right-0 h-screen flex flex-col items-end">
         <img
           src="/illustrations/borderTopRight.svg"
           alt="Right Illustration"
-          className="h-full"
+          className="w-[241px]"
+        />
+        <img
+          src="/illustrations/border-block.svg"
+          alt="Left Illustration block"
+          className="w-[104px]"
+        />
+        <img
+          src="/illustrations/border-block.svg"
+          alt="Left Illustration block"
+          className="w-[104px]"
+        />
+        <img
+          src="/illustrations/border-block.svg"
+          alt="Left Illustration block"
+          className="w-[104px]"
+        />
+        <img
+          src="/illustrations/border-block.svg"
+          alt="Left Illustration block"
+          className="w-[104px]"
         />
       </div>
 
       <div
         id="about"
-        className="min-h-screen flex flex-col items-center px-2 md:px-8 lg:px-16 overflow-hidden relative "
+        className="h-screen flex flex-col items-center px-2 md:px-8 lg:px-16 overflow-hidden relative "
       >
         <Navbar />
-        <h1 className="text-white text-4xl font-bold mt-8">About Us</h1>
-        <p className="text-white text-center mt-4">
-          This is the first section of the page.
+        <h1 className="text-white md:text-6xl text-5xl font-bold mt-8 bg-">Sahiti BPD</h1>
+
+        <img className="h-[200px] w-auto mt-6" src="/logos/sahiti-cream.svg" alt="alt" />
+        
+        <p className="text-white m-10 mt-7 mb-3 px-4 md:px-52 text-xl text-justify">
+          The flagstone event will be the NITC Parliamentary Debate - held in a BPD format under the WUDC (World Universities Debating Championship) model. The Debate will span 2 days and aims to provide participants with a platform to engage in structured debates, enhancing their public speaking, analytical, and decision-making skills
+          <br />
+          <br />
+          To register for the event, visit :
         </p>
+        
+
+        <br />
+
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-x-4 md:space-y-0 mt-6">
+          <Button
+            link="/brochures/Sahiti-Brochure.pdf"
+            bgColor="#FFFDD0"
+            textColor="#FF8343"
+            isPDF={true}
+          >
+            View Brochure
+          </Button>
+          <Button
+          link="https://docs.google.com/forms/d/e/1FAIpQLSci2XwY2BLfXg76cKGpRZ_88dmbxmWtUZoGcrCkJ9kPGUqk7A/viewform"
+          bgColor="#FFFDD0"
+          textColor="#FF8343"
+        >
+          Register Now
+        </Button>
+        </div>
+
+        <br /><br />
+        
+
+        
       </div>
+
+      {/* Second Section */}
+      {/* <div className="absolute top-screen z-10 -left-14 md:left-0 h-screen rotate-180">
+        <img
+          src="/illustrations/borderTopRight.svg"
+          alt="Left Illustration for Second Section"
+          className="h-full"
+        />
+      </div>
+
+      <div className="absolute top-screen z-10 -right-14 md:right-0 h-screen rotate-180">
+        <img
+          src="/illustrations/borderTopLeft.svg"
+          alt="Right Illustration for Second Section"
+          className="h-full"
+        />
+      </div> */}
     </div>
   );
 };
