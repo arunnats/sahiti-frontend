@@ -3,76 +3,17 @@ import Navbar from "../components/Navbar";
 import Button from "../components/Common/BiggerButton";
 import Gallery from "../components/Gallery/Gallery";
 
+import LeftArchBorder from '../components/Common/LeftArchBorder'
+import RightArchBorder from '../components/Common/RightArchBorder'
+
 const Sponsors = () => {
 	return (
 		<div className="bg-[#FF8343] p-0 m-0 relative overflow-clip h-max">
 			{/* Left  Border */}
-			<div className="absolute top-0 -left-14 md:left-0 md:h-screen h-[50%]">
-				<img
-					src="/illustrations/borderTopLeft.svg"
-					alt="Left Illustration"
-					className="w-[241px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-			</div>
+			<LeftArchBorder />
 
-			{/* Left Right Border */}
-			<div className="absolute top-0 -right-14 md:right-0 h-screen flex flex-col items-end">
-				<img
-					src="/illustrations/borderTopRight.svg"
-					alt="Right Illustration"
-					className="w-[241px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-				<img
-					src="/illustrations/border-block.svg"
-					alt="Left Illustration block"
-					className="w-[104px]"
-				/>
-			</div>
+			{/* Right Border */}
+			<RightArchBorder />
 
 			<div
 				id="about"
