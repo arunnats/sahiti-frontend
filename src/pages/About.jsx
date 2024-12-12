@@ -38,6 +38,31 @@ const About = () => {
 					alt="Left Illustration block"
 					className="w-[104px]"
 				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
 			</div>
 
 			{/* Left Right Border */}
@@ -67,6 +92,21 @@ const About = () => {
 					alt="Left Illustration block"
 					className="w-[104px]"
 				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
+				<img
+					src="/illustrations/border-block.svg"
+					alt="Left Illustration block"
+					className="w-[104px]"
+				/>
 			</div>
 
 			<div
@@ -75,9 +115,10 @@ const About = () => {
 			>
 				<Navbar />
 				<h1 className="text-white text-6xl font-bold mt-8">About Us</h1>
-				<h1 className="text-white text-5xl font-bold mt-8">The Literary and</h1>
-				<h1 className="text-white text-5xl font-bold">Debating Club, NITC</h1>
-
+				{/* <h1 className="text-white text-5xl font-bold mt-8">The Literary and</h1>
+				<h1 className="text-white text-5xl font-bold">Debating Club, NITC</h1> */}
+				<h1 className="text-white md:text-5xl text-3xl mx-12 text-center  font-bold mt-8">
+				The Literary and Debating Club, NITC</h1>
 				<img className="h-[150px] w-auto mt-6" src="/logos/lnd.png" alt="alt" />
 				<div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-x-4 md:space-y-0 mt-6">
 					<Button
@@ -113,11 +154,11 @@ const About = () => {
 					links.lndnitc.org
 				</Button>
 
+				<hr />
+
 				<br />
-				<h1 className="text-white text-5xl font-bold mt-8">
-					Center For Cultural And
-				</h1>
-				<h1 className="text-white text-5xl font-bold">Art Relations NITC</h1>
+				{/* <h1 className="text-white md:text-5xl text-3xl mx-12 text-center  font-bold mt-8">
+					Center For Cultural And Art Relations NITC</h1> */}
 				<img
 					className="h-[200px] w-auto mt-6"
 					src="/logos/ccar-logo.png"
@@ -144,7 +185,7 @@ const About = () => {
 					To explore the various ventures of the CCAR, visit :
 				</p>
 				<Button
-					link="https://nitc.ac.in/multidiscilplinary-centres/centre-for-cultural-and-art-relations-ccar/"
+					link="https://nitc.ac.in/multidiscilplinary-centres/centre-for-cultural-and-art-relations-ccar"
 					bgColor="#FFFDD0"
 					textColor="#FF8343"
 				>

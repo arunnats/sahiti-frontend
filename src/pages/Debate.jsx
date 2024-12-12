@@ -71,12 +71,19 @@ const Debate = () => {
 
       <div
         id="about"
-        className="h-screen flex flex-col items-center px-2 md:px-8 lg:px-16 overflow-hidden relative "
+        className="min-h-screen flex flex-col items-center px-2 md:px-8 lg:px-16 overflow-hidden relative "
       >
         <Navbar />
-        <h1 className="text-white md:text-6xl text-5xl font-bold mt-8 bg-">Sahiti BPD</h1>
+        <h1 className="text-white md:text-6xl text-3xl center font-bold mt-8 mx-20 text-center ">Sahiti Parliamentary Debate</h1>
 
         <img className="h-[200px] w-auto mt-6" src="/logos/sahiti-cream.svg" alt="alt" />
+        {/* <img
+					className="w-[60vw] ipadAir:w-[65vw] ipadPro:w-[60vw] smallHeight:w-[50vw] md:w-[60vw] lg:w-[25vw] my-3"
+					src="/logos/debate-orange.png"
+					alt="Sahiti Debate"
+				/> */}
+
+        
         
         <p className="text-white m-10 mt-7 mb-3 px-4 md:px-52 text-xl text-justify">
           The flagstone event will be the NITC Parliamentary Debate - held in a BPD format under the WUDC (World Universities Debating Championship) model. The Debate will span 2 days and aims to provide participants with a platform to engage in structured debates, enhancing their public speaking, analytical, and decision-making skills
