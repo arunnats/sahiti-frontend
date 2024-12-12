@@ -19,6 +19,7 @@ const Navbar = () => {
 
 	return (
 		<div className="navbar font-poppins text-[#FFEFD5] mt-4">
+
 			<div className="navbar-start">
 				<div className="dropdown">
 					<div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,7 +27,7 @@ const Navbar = () => {
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
-							className="h-8 w-8 stroke-black"
+							className="h-8 w-8 stroke-black bg-white p-1 rounded-full shadow-black shadow-2xl  "
 						>
 							<path
 								strokeLinecap="round"
@@ -46,19 +47,20 @@ const Navbar = () => {
 						<li>
 							<Link to="/about">About</Link>
 						</li>
-						{/* <li>
+						<li>
 							<Link to="/debate">Debate</Link>
-						</li> */}
+						</li>
 						<li>
 							<Link to="/sponsors">Sponsors</Link>
 						</li>
-						{/* <li>
+						<li>
 							<Link to="/contact">Contact</Link>
-						</li> */}
+						</li>
 					</ul>
 				</div>
 			</div>
-			<div className="navbar-center hidden lg:flex">
+
+			<div className="navbar-center hidden lg:flex border border-orange-300 rounded-full  ">
 				<ul className="menu menu-horizontal px-1 text-xl text-white">
 					<li>
 						<Link to="/">Home</Link>
@@ -66,9 +68,9 @@ const Navbar = () => {
 					<li>
 						<Link to="/about">About</Link>
 					</li>
-					{/* <li>
+					<li>
 						<Link to="/debate">Debate</Link>
-					</li> */}
+					</li>
 					<li>
 						<Link to="/sponsors">Sponsors</Link>
 					</li>

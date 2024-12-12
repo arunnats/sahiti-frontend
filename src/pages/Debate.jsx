@@ -34,6 +34,45 @@ const Debate = () => {
           <br />
           To register for the event, visit :
         </p>
+
+        <p className="text-white m-10 mt-7 mb-3 px-4 md:px-52 text-xl text-justify">
+          The debate will be done in 2 pools :
+          <br />
+        </p>
+
+        <h1 className="text-white md:text-4xl text-2xl center font-bold mt-8 mx-20 text-center ">Collegiate Debate</h1>
+        <p className="text-white m-10 mt-7 mb-3 px-4 md:px-52 text-xl text-justify">
+          Battle between the best of the best! The Collegiate Debate will be held in a BPD format under the WUDC (World Universities Debating Championship) model. The Debate will span 2 days and aims to provide participants with a platform to engage in structured debates, enhancing their public speaking, analytical, and decision-making skills.
+          <br />
+        </p>
+
+        <br />
+
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-x-4 md:space-y-0 mt-6">
+          <Button
+            link="/brochures/Sahiti-Brochure.pdf"
+            bgColor="#FFFDD0"
+            textColor="#FF8343"
+            isPDF={true}
+          >
+            View Brochure
+          </Button>
+          <Button
+          link="https://docs.google.com/forms/d/e/1FAIpQLSci2XwY2BLfXg76cKGpRZ_88dmbxmWtUZoGcrCkJ9kPGUqk7A/viewform"
+          bgColor="#FFFDD0"
+          textColor="#FF8343"
+        >
+          Register Now
+        </Button>
+        </div>
+
+        
+        <h1 className="text-white md:text-4xl text-2xl center font-bold mt-8 mx-20 text-center ">Scholastic Debate</h1>
+        <p className="text-white m-10 mt-7 mb-3 px-4 md:px-52 text-xl text-justify">
+          The Scholastic Debate will be held in a BPD format under the WUDC (World Universities Debating Championship) model. The Debate will span 2 days and aims to provide participants with a platform to engage in structured debates, enhancing their public speaking, analytical, and decision-making skills.
+          <br />
+        </p>
+
         
 
         <br />

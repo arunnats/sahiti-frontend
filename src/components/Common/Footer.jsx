@@ -39,29 +39,13 @@ const Footer = () => {
 								</a>
 							</div>
 							<div className="flex justify-center">
-								<a
-									href="https://www.linkedin.com"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="h-14 w-14 "
-										src="/logos/linkedin.svg"
-										alt="LinkedIn"
-									/>
+								<a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+									<img className="h-14 w-14 " src="/logos/linkedin.svg" alt="LinkedIn"/>
 								</a>
 							</div>
 							<div className="flex justify-center">
-								<a
-									href="https://www.instagram.com"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="h-14 w-14 "
-										src="/logos/insta.svg"
-										alt="Instagram"
-									/>
+								<a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+									<img className="h-14 w-14 " src="/logos/insta.svg" alt="Instagram"/>
 								</a>
 							</div>
 						</div>
@@ -79,19 +63,13 @@ const Footer = () => {
 					>
 						<ul className="space-y-2">
 							<li>
-								<a href="/" className=" hover:underline">
-									Home
-								</a>
+								<a href="/" className=" hover:underline duration-500"> Home </a>
 							</li>
 							<li>
-								<a href="/sponsors" className=" hover:underline">
-									Sponsors
-								</a>
+								<a href="/sponsors" className=" hover:underline duration-500"> Sponsors </a>
 							</li>
 							<li>
-								<a href="/events" className=" hover:underline">
-									Events
-								</a>
+								<a href="/events" className=" hover:underline duration-500"> Events </a>
 							</li>
 						</ul>
 					</div>
@@ -102,24 +80,16 @@ const Footer = () => {
 					>
 						<ul className="space-y-2">
 							<li>
-								<a href="/debate" className=" hover:underline">
-									Debate
-								</a>
+								<a href="/debate" className=" hover:underline duration-500">Debate</a>
 							</li>
 							<li>
-								<a href="/workers" className=" hover:underline">
-									Workers
-								</a>
+								<a href="/workers" className=" hover:underline duration-500">Workers</a>
 							</li>
 							<li>
-								<a href="/speakers" className=" hover:underline">
-									Speakers
-								</a>
+								<a href="/speakers" className=" hover:underline duration-500">Speakers</a>
 							</li>
 							<li>
-								<a href="/contact-us" className=" hover:underline">
-									Contact Us
-								</a>
+								<a href="/contact-us" className=" hover:underline duration-500">Contact Us</a>
 							</li>
 						</ul>
 					</div>
@@ -130,22 +100,22 @@ const Footer = () => {
 					>
 						<ul className="space-y-2">
 							<li>
-								<a href="/schedule" className=" hover:underline">
+								<a href="/schedule" className=" hover:underline duration-500">
 									Schedule
 								</a>
 							</li>
 							<li>
-								<a href="/tickets" className=" hover:underline">
+								<a href="/tickets" className=" hover:underline duration-500">
 									Tickets
 								</a>
 							</li>
 							<li>
-								<a href="/registration" className=" hover:underline">
+								<a href="/registration" className=" hover:underline duration-500">
 									Registration
 								</a>
 							</li>
 							<li>
-								<a href="/faq" className=" hover:underline">
+								<a href="/faq" className=" hover:underline duration-500">
 									FAQ
 								</a>
 							</li>
