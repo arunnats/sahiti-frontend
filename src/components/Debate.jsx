@@ -36,7 +36,7 @@ const Debate = () => {
 						Learn More
 					</Button>
 					<Button
-						link=""
+						link="https://docs.google.com/forms/d/e/1FAIpQLSci2XwY2BLfXg76cKGpRZ_88dmbxmWtUZoGcrCkJ9kPGUqk7A/viewform"
 						bgColor="transparent"
 						textColor="#FF8343"
 						borderColor="#FF8343"
